@@ -1,7 +1,9 @@
 package io.github.jason13official.brutes.impl.client.model;
 
 import io.github.jason13official.brutes.Brutes;
+import io.github.jason13official.brutes.impl.client.animation.BrutishVillagerAnimations;
 import io.github.jason13official.brutes.impl.common.registry.entity.BrutishVillager;
+import net.minecraft.client.animation.definitions.SnifferAnimation;
 import net.minecraft.client.model.HierarchicalModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelPart;
@@ -69,7 +71,11 @@ public class BrutishVillagerModel extends HierarchicalModel<BrutishVillager> {
   }
 
   @Override
-  public void setupAnim(BrutishVillager brutishVillager, float v, float v1, float v2, float v3, float v4) {
+  public void setupAnim(BrutishVillager brutishVillager, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
+    this.root().getAllParts().forEach(ModelPart::resetPose);
+    this.Head.xRot = headPitch * ((float)Math.PI / 180F);
+    this.Head.yRot = netHeadYaw * ((float)Math.PI / 180F);
 
+    this.animate(brutishVillager.idleAnimationState, BrutishVillagerAnimations.idle, ageInTicks);
   }
 }
