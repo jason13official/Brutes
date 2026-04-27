@@ -10,6 +10,7 @@ import io.github.jason13official.brutes.impl.common.registry.ModTiles;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.SimpleSynchronousResourceReloadListener;
 import net.minecraft.core.Registry;
@@ -17,6 +18,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.PackType;
 import net.minecraft.server.packs.resources.ResourceManager;
+import net.minecraft.world.entity.monster.Monster;
 
 public class BrutesFabric implements ModInitializer {
 
@@ -32,6 +34,8 @@ public class BrutesFabric implements ModInitializer {
     bind(BuiltInRegistries.CREATIVE_MODE_TAB, ModTabs::register);
 
     Brutes.init();
+
+    FabricDefaultAttributeRegistry.register(ModEntities.BRUTISH_VILLAGER, Monster.createMonsterAttributes());
 
     ResourceManagerHelper.get(PackType.SERVER_DATA).registerReloadListener(new ResourceReloadListener());
   }
