@@ -5,5 +5,5 @@
 > New brutish villagers, pillagers, and illagers that will plunder your fortunes!
 
 - [1.20.1](https://github.com/jason13official/Brutes/tree/1.20.1)
-- [1.21.1](https://github.com/jason13official/Brutes/tree/1.21.1)
-- [26.1](https://github.com/jason13official/Brutes/tree/26.1)
+<!-- - [1.21.1](https://github.com/jason13official/Brutes/tree/1.21.1)
+- [26.1](https://github.com/jason13official/Brutes/tree/26.1) -->
