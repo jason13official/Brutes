@@ -6,7 +6,10 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.DifficultyInstance;
+import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.AnimationState;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
@@ -140,6 +143,16 @@ public class BrutishVillager extends PathfinderMob {
     } else {
       super.handleEntityEvent(id);
     }
+  }
+
+  @Override
+  protected SoundEvent getAmbientSound() {
+    return SoundEvents.VILLAGER_AMBIENT;
+  }
+
+  @Override
+  protected SoundEvent getHurtSound(DamageSource damageSource) {
+    return SoundEvents.VILLAGER_HURT;
   }
 
   public State getDataState() {
