@@ -13,7 +13,7 @@ public class ModEntities {
 
   public static void register(BiConsumer<EntityType<?>, ResourceLocation> consumer) {
 
-    BRUTISH_VILLAGER = EntityType.Builder.<BrutishVillager>of(BrutishVillager::new, MobCategory.MONSTER).build(Brutes.identifier("brutish_villager").toString());
+    BRUTISH_VILLAGER = EntityType.Builder.<BrutishVillager>of(BrutishVillager::new, MobCategory.MONSTER).sized(1.4F, 2.3F).build(Brutes.identifier("brutish_villager").toString());
     consumer.accept(BRUTISH_VILLAGER, Brutes.identifier("brutish_villager"));
   }
 }

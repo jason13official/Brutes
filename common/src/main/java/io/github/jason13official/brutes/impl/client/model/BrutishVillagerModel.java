@@ -3,7 +3,6 @@ package io.github.jason13official.brutes.impl.client.model;
 import io.github.jason13official.brutes.Brutes;
 import io.github.jason13official.brutes.impl.client.animation.BrutishVillagerAnimations;
 import io.github.jason13official.brutes.impl.common.registry.entity.BrutishVillager;
-import net.minecraft.client.animation.definitions.SnifferAnimation;
 import net.minecraft.client.model.HierarchicalModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelPart;
@@ -77,5 +76,8 @@ public class BrutishVillagerModel extends HierarchicalModel<BrutishVillager> {
     this.Head.yRot = netHeadYaw * ((float)Math.PI / 180F);
 
     this.animate(brutishVillager.idleAnimationState, BrutishVillagerAnimations.idle, ageInTicks);
+    this.animate(brutishVillager.walkAnimationState, BrutishVillagerAnimations.walk, ageInTicks);
+    this.animate(brutishVillager.runAnimationState, BrutishVillagerAnimations.run, ageInTicks);
+    this.animate(brutishVillager.attackAnimationState, BrutishVillagerAnimations.attack, ageInTicks);
   }
 }

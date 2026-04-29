@@ -16,7 +16,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.server.packs.resources.SimplePreparableReloadListener;
 import net.minecraft.util.profiling.ProfilerFiller;
-import net.minecraft.world.entity.monster.Monster;
+import io.github.jason13official.brutes.impl.common.registry.entity.BrutishVillager;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.AddReloadListenerEvent;
@@ -47,7 +47,7 @@ public class BrutesForge {
     EVENT_BUS.addListener((Consumer<FMLCommonSetupEvent>) event -> Brutes.init());
 
     EVENT_BUS.addListener((Consumer<EntityAttributeCreationEvent>) event -> {
-      event.put(ModEntities.BRUTISH_VILLAGER, Monster.createMonsterAttributes().build());
+      event.put(ModEntities.BRUTISH_VILLAGER, BrutishVillager.createAttributes().build());
     });
 
     MinecraftForge.EVENT_BUS.addListener((Consumer<AddReloadListenerEvent>) event -> {

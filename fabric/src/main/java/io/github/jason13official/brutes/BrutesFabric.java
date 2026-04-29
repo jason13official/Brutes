@@ -18,7 +18,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.PackType;
 import net.minecraft.server.packs.resources.ResourceManager;
-import net.minecraft.world.entity.monster.Monster;
+import io.github.jason13official.brutes.impl.common.registry.entity.BrutishVillager;
 
 public class BrutesFabric implements ModInitializer {
 
@@ -35,7 +35,7 @@ public class BrutesFabric implements ModInitializer {
 
     Brutes.init();
 
-    FabricDefaultAttributeRegistry.register(ModEntities.BRUTISH_VILLAGER, Monster.createMonsterAttributes());
+    FabricDefaultAttributeRegistry.register(ModEntities.BRUTISH_VILLAGER, BrutishVillager.createAttributes());
 
     ResourceManagerHelper.get(PackType.SERVER_DATA).registerReloadListener(new ResourceReloadListener());
   }
