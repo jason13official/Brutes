@@ -18,35 +18,35 @@ public class BrutishVillagerAnimations {
           new Keyframe(1.1029F, KeyframeAnimations.posVec(0.0F, 1.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(2.2059F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Left Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION,
+      .addAnimation("LeftArm", new AnimationChannel(AnimationChannel.Targets.ROTATION,
           new Keyframe(0.0F, KeyframeAnimations.degreeVec(-10.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(1.2255F, KeyframeAnimations.degreeVec(7.6145F, -9.9136F, -1.3184F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(2.3284F, KeyframeAnimations.degreeVec(-10.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Left Arm", new AnimationChannel(AnimationChannel.Targets.POSITION,
+      .addAnimation("LeftArm", new AnimationChannel(AnimationChannel.Targets.POSITION,
           new Keyframe(0.0F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(1.2255F, KeyframeAnimations.posVec(0.0F, -2.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(2.3284F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Right Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION,
+      .addAnimation("RightArm", new AnimationChannel(AnimationChannel.Targets.ROTATION,
           new Keyframe(0.0F, KeyframeAnimations.degreeVec(-12.5F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(1.2255F, KeyframeAnimations.degreeVec(0.0F, 10.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(2.3284F, KeyframeAnimations.degreeVec(-12.5F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Right Arm", new AnimationChannel(AnimationChannel.Targets.POSITION,
+      .addAnimation("RightArm", new AnimationChannel(AnimationChannel.Targets.POSITION,
           new Keyframe(0.0F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(1.2255F, KeyframeAnimations.posVec(0.0F, -2.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(2.3284F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Left Leg", new AnimationChannel(AnimationChannel.Targets.ROTATION,
+      .addAnimation("LeftLeg", new AnimationChannel(AnimationChannel.Targets.ROTATION,
           new Keyframe(0.0F, KeyframeAnimations.degreeVec(-5.0F, -27.5F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(2.2059F, KeyframeAnimations.degreeVec(-5.0F, -27.5F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Left Leg", new AnimationChannel(AnimationChannel.Targets.POSITION,
+      .addAnimation("LeftLeg", new AnimationChannel(AnimationChannel.Targets.POSITION,
           new Keyframe(0.0F, KeyframeAnimations.posVec(0.0F, 0.0F, -2.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(2.2059F, KeyframeAnimations.posVec(0.0F, 0.0F, -2.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Right Leg", new AnimationChannel(AnimationChannel.Targets.ROTATION,
+      .addAnimation("RightLeg", new AnimationChannel(AnimationChannel.Targets.ROTATION,
           new Keyframe(0.0F, KeyframeAnimations.degreeVec(0.0F, 17.5F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(2.2059F, KeyframeAnimations.degreeVec(0.0F, 17.5F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
@@ -72,21 +72,21 @@ public class BrutishVillagerAnimations {
           new Keyframe(0.9583F, KeyframeAnimations.posVec(0.0F, -1.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(1.2917F, KeyframeAnimations.posVec(0.0F, 1.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Left Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION,
+      .addAnimation("LeftArm", new AnimationChannel(AnimationChannel.Targets.ROTATION,
           new Keyframe(0.0F, KeyframeAnimations.degreeVec(10.683F, -6.4837F, -6.2639F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.375F, KeyframeAnimations.degreeVec(21.0094F, -3.8678F, -10.7175F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.6667F, KeyframeAnimations.degreeVec(10.683F, -6.4837F, -6.2639F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.9167F, KeyframeAnimations.degreeVec(21.1488F, -2.9685F, -13.0543F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(1.2917F, KeyframeAnimations.degreeVec(10.683F, -6.4837F, -6.2639F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Right Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION,
+      .addAnimation("RightArm", new AnimationChannel(AnimationChannel.Targets.ROTATION,
           new Keyframe(0.0F, KeyframeAnimations.degreeVec(0.0F, 10.0F, 7.5F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.375F, KeyframeAnimations.degreeVec(11.2101F, 8.6177F, 14.9702F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.6667F, KeyframeAnimations.degreeVec(0.0F, 10.0F, 7.5F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.9167F, KeyframeAnimations.degreeVec(10.8277F, 9.0956F, 12.4867F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(1.2917F, KeyframeAnimations.degreeVec(0.0F, 10.0F, 7.5F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Left Leg", new AnimationChannel(AnimationChannel.Targets.ROTATION,
+      .addAnimation("LeftLeg", new AnimationChannel(AnimationChannel.Targets.ROTATION,
           new Keyframe(0.0F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.0833F, KeyframeAnimations.degreeVec(15.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.125F, KeyframeAnimations.degreeVec(25.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
@@ -107,7 +107,7 @@ public class BrutishVillagerAnimations {
           new Keyframe(1.2083F, KeyframeAnimations.degreeVec(-15.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(1.2917F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Left Leg", new AnimationChannel(AnimationChannel.Targets.POSITION,
+      .addAnimation("LeftLeg", new AnimationChannel(AnimationChannel.Targets.POSITION,
           new Keyframe(0.0F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.0833F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.125F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
@@ -128,7 +128,7 @@ public class BrutishVillagerAnimations {
           new Keyframe(1.2083F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(1.2917F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Right Leg", new AnimationChannel(AnimationChannel.Targets.ROTATION,
+      .addAnimation("RightLeg", new AnimationChannel(AnimationChannel.Targets.ROTATION,
           new Keyframe(0.0F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.0833F, KeyframeAnimations.degreeVec(-15.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.125F, KeyframeAnimations.degreeVec(-25.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
@@ -149,7 +149,7 @@ public class BrutishVillagerAnimations {
           new Keyframe(1.2083F, KeyframeAnimations.degreeVec(15.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(1.2917F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Right Leg", new AnimationChannel(AnimationChannel.Targets.POSITION,
+      .addAnimation("RightLeg", new AnimationChannel(AnimationChannel.Targets.POSITION,
           new Keyframe(0.0F, KeyframeAnimations.posVec(0.0F, 7.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.0833F, KeyframeAnimations.posVec(0.0F, 6.5F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.125F, KeyframeAnimations.posVec(0.0F, 5.3F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
@@ -194,21 +194,21 @@ public class BrutishVillagerAnimations {
           new Keyframe(0.6519F, KeyframeAnimations.posVec(0.0F, -2.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.8787F, KeyframeAnimations.posVec(0.0F, 2.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Left Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION,
+      .addAnimation("LeftArm", new AnimationChannel(AnimationChannel.Targets.ROTATION,
           new Keyframe(0.0F, KeyframeAnimations.degreeVec(30.213F, -11.7815F, -15.0044F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.2551F, KeyframeAnimations.degreeVec(43.6018F, -6.6474F, -20.5452F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.4535F, KeyframeAnimations.degreeVec(30.213F, -11.7815F, -15.0044F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.6519F, KeyframeAnimations.degreeVec(43.6018F, -6.6474F, -20.5452F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.8787F, KeyframeAnimations.degreeVec(30.213F, -11.7815F, -15.0044F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Right Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION,
+      .addAnimation("RightArm", new AnimationChannel(AnimationChannel.Targets.ROTATION,
           new Keyframe(0.0F, KeyframeAnimations.degreeVec(30.213F, 11.7815F, 15.0044F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.2551F, KeyframeAnimations.degreeVec(43.6018F, 6.6474F, 20.5452F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.4535F, KeyframeAnimations.degreeVec(30.213F, 11.7815F, 15.0044F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.6519F, KeyframeAnimations.degreeVec(43.6018F, 6.6474F, 20.5452F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.8787F, KeyframeAnimations.degreeVec(30.213F, 11.7815F, 15.0044F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Left Leg", new AnimationChannel(AnimationChannel.Targets.ROTATION,
+      .addAnimation("LeftLeg", new AnimationChannel(AnimationChannel.Targets.ROTATION,
           new Keyframe(0.0F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.0567F, KeyframeAnimations.degreeVec(15.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.085F, KeyframeAnimations.degreeVec(25.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
@@ -229,7 +229,7 @@ public class BrutishVillagerAnimations {
           new Keyframe(0.822F, KeyframeAnimations.degreeVec(-15.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.8787F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Left Leg", new AnimationChannel(AnimationChannel.Targets.POSITION,
+      .addAnimation("LeftLeg", new AnimationChannel(AnimationChannel.Targets.POSITION,
           new Keyframe(0.0F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.0567F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.085F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
@@ -250,7 +250,7 @@ public class BrutishVillagerAnimations {
           new Keyframe(0.822F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.8787F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Right Leg", new AnimationChannel(AnimationChannel.Targets.ROTATION,
+      .addAnimation("RightLeg", new AnimationChannel(AnimationChannel.Targets.ROTATION,
           new Keyframe(0.0F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.0567F, KeyframeAnimations.degreeVec(-15.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.085F, KeyframeAnimations.degreeVec(-25.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
@@ -271,7 +271,7 @@ public class BrutishVillagerAnimations {
           new Keyframe(0.822F, KeyframeAnimations.degreeVec(15.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.8787F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Right Leg", new AnimationChannel(AnimationChannel.Targets.POSITION,
+      .addAnimation("RightLeg", new AnimationChannel(AnimationChannel.Targets.POSITION,
           new Keyframe(0.0F, KeyframeAnimations.posVec(0.0F, 7.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.0567F, KeyframeAnimations.posVec(0.0F, 6.5F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.085F, KeyframeAnimations.posVec(0.0F, 5.3F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
@@ -312,7 +312,7 @@ public class BrutishVillagerAnimations {
           new Keyframe(0.6705F, KeyframeAnimations.degreeVec(-15.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.8142F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Left Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION,
+      .addAnimation("LeftArm", new AnimationChannel(AnimationChannel.Targets.ROTATION,
           new Keyframe(0.0F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.1437F, KeyframeAnimations.degreeVec(42.5F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.2874F, KeyframeAnimations.degreeVec(47.5F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
@@ -322,7 +322,7 @@ public class BrutishVillagerAnimations {
           new Keyframe(0.6705F, KeyframeAnimations.degreeVec(-147.5F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.7663F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Right Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION,
+      .addAnimation("RightArm", new AnimationChannel(AnimationChannel.Targets.ROTATION,
           new Keyframe(0.0F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.1437F, KeyframeAnimations.degreeVec(42.5F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.2874F, KeyframeAnimations.degreeVec(47.5F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
@@ -332,13 +332,13 @@ public class BrutishVillagerAnimations {
           new Keyframe(0.6705F, KeyframeAnimations.degreeVec(-147.5F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.7663F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Left Leg", new AnimationChannel(AnimationChannel.Targets.ROTATION,
+      .addAnimation("LeftLeg", new AnimationChannel(AnimationChannel.Targets.ROTATION,
           new Keyframe(0.0F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.1916F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.6226F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.8142F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Left Leg", new AnimationChannel(AnimationChannel.Targets.POSITION,
+      .addAnimation("LeftLeg", new AnimationChannel(AnimationChannel.Targets.POSITION,
           new Keyframe(0.0F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.0958F, KeyframeAnimations.posVec(0.0F, 6.0F, -6.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.1916F, KeyframeAnimations.posVec(0.0F, -1.0F, -6.0F), AnimationChannel.Interpolations.CATMULLROM),
@@ -348,7 +348,7 @@ public class BrutishVillagerAnimations {
           new Keyframe(0.7184F, KeyframeAnimations.posVec(0.0F, 2.3F, -4.22F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.8142F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
       ))
-      .addAnimation("Right Leg", new AnimationChannel(AnimationChannel.Targets.ROTATION,
+      .addAnimation("RightLeg", new AnimationChannel(AnimationChannel.Targets.ROTATION,
           new Keyframe(0.0F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.2874F, KeyframeAnimations.degreeVec(10.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
           new Keyframe(0.6705F, KeyframeAnimations.degreeVec(10.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
