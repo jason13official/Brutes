@@ -9,12 +9,14 @@ import io.github.jason13official.brutes.impl.common.registry.ModParticles;
 import io.github.jason13official.brutes.impl.common.registry.ModPotions;
 import io.github.jason13official.brutes.impl.common.registry.ModTabs;
 import io.github.jason13official.brutes.impl.common.registry.ModTiles;
+import io.github.jason13official.brutes.impl.common.tracker.TransformationTracker;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.server.packs.resources.SimplePreparableReloadListener;
 import net.minecraft.util.profiling.ProfilerFiller;
@@ -22,6 +24,7 @@ import io.github.jason13official.brutes.impl.common.registry.entity.BrutishVilla
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.AddReloadListenerEvent;
+import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -56,6 +59,11 @@ public class BrutesForge {
 
     MinecraftForge.EVENT_BUS.addListener((Consumer<AddReloadListenerEvent>) event -> {
       event.addListener(new ResourceReloadListener());
+    });
+
+    MinecraftForge.EVENT_BUS.addListener((Consumer<TickEvent.LevelTickEvent>) event -> {
+      if (event.phase != TickEvent.Phase.END || event.level.isClientSide() || !(event.level instanceof ServerLevel serverLevel)) return;
+      TransformationTracker.tick(serverLevel);
     });
 
     if (FMLLoader.getDist() == Dist.CLIENT) {

@@ -2,6 +2,7 @@ package io.github.jason13official.brutes.impl.common.registry.effect;
 
 import io.github.jason13official.brutes.impl.common.registry.ModEntities;
 import io.github.jason13official.brutes.impl.common.registry.entity.BrutishVillager;
+import io.github.jason13official.brutes.impl.common.tracker.TransformationTracker;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
@@ -19,13 +20,15 @@ public class BrutingEffect extends MobEffect {
   public void applyInstantenousEffect(Entity source, Entity indirectSource, LivingEntity livingEntity, int amplifier, double health) {
     super.applyInstantenousEffect(source, indirectSource, livingEntity, amplifier, health);
 
-    if (livingEntity instanceof Villager && livingEntity.level() instanceof ServerLevel level) {
+    if (livingEntity instanceof Villager villager) {
 
-      BrutishVillager brute = new BrutishVillager(ModEntities.BRUTISH_VILLAGER, level);
-      brute.moveTo(livingEntity.position());
-      level.addFreshEntity(brute);
+      TransformationTracker.start(villager);
 
-      livingEntity.discard();
+//      BrutishVillager brute = new BrutishVillager(ModEntities.BRUTISH_VILLAGER, level);
+//      brute.moveTo(livingEntity.position());
+//      level.addFreshEntity(brute);
+//
+//      livingEntity.discard();
     }
   }
 
