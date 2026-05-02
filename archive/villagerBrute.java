@@ -11,8 +11,8 @@ public class villagerBrute<T extends Entity> extends EntityModel<T> {
 	private final ModelPart Right Arm;
 	private final ModelPart Left Arm;
 	private final ModelPart Head;
-	private final ModelPart Left Leg;
-	private final ModelPart Right Leg;
+	private final ModelPart LeftLeg;
+	private final ModelPart RightLeg;
 
 	public villagerBrute(ModelPart root) {
 		this.Brute = root.getChild("Brute");
@@ -20,8 +20,8 @@ public class villagerBrute<T extends Entity> extends EntityModel<T> {
 		this.Right Arm = this.Body.getChild("Right Arm");
 		this.Left Arm = this.Body.getChild("Left Arm");
 		this.Head = this.Body.getChild("Head");
-		this.Left Leg = this.Brute.getChild("Left Leg");
-		this.Right Leg = this.Brute.getChild("Right Leg");
+		this.LeftLeg = this.Brute.getChild("LeftLeg");
+		this.RightLeg = this.Brute.getChild("RightLeg");
 	}
 
 	public static LayerDefinition createBodyLayer() {
@@ -41,9 +41,9 @@ public class villagerBrute<T extends Entity> extends EntityModel<T> {
 		.texOffs(26, 65).addBox(-4.4F, -5.0F, -5.0F, 9.0F, 2.0F, 4.0F, new CubeDeformation(0.1F))
 		.texOffs(66, 0).addBox(-2.0F, -3.0F, -8.0F, 4.0F, 7.0F, 4.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, -21.0F, -4.0F));
 
-		PartDefinition Left Leg = Brute.addOrReplaceChild("Left Leg", CubeListBuilder.create().texOffs(62, 44).addBox(-3.5F, 0.0F, -2.9F, 6.0F, 19.0F, 7.0F, new CubeDeformation(0.0F)), PartPose.offset(4.0F, -5.0F, 3.0F));
+		PartDefinition LeftLeg = Brute.addOrReplaceChild("LeftLeg", CubeListBuilder.create().texOffs(62, 44).addBox(-3.5F, -2.0F, -2.9F, 6.0F, 19.0F, 7.0F, new CubeDeformation(0.0F)), PartPose.offset(4.0F, -3.0F, 3.0F));
 
-		PartDefinition Right Leg = Brute.addOrReplaceChild("Right Leg", CubeListBuilder.create().texOffs(62, 44).mirror().addBox(-2.6F, 0.0F, -3.9F, 6.0F, 19.0F, 7.0F, new CubeDeformation(0.0F)).mirror(false), PartPose.offset(-6.0F, -5.0F, 4.0F));
+		PartDefinition RightLeg = Brute.addOrReplaceChild("RightLeg", CubeListBuilder.create().texOffs(62, 44).mirror().addBox(-2.6F, 0.0F, -3.9F, 6.0F, 19.0F, 7.0F, new CubeDeformation(0.0F)).mirror(false), PartPose.offset(-6.0F, -5.0F, 4.0F));
 
 		return LayerDefinition.create(meshdefinition, 128, 128);
 	}
