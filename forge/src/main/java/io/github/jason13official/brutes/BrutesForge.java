@@ -1,10 +1,12 @@
 package io.github.jason13official.brutes;
 
 import io.github.jason13official.brutes.impl.common.registry.ModBlocks;
+import io.github.jason13official.brutes.impl.common.registry.ModEffects;
 import io.github.jason13official.brutes.impl.common.registry.ModEntities;
 import io.github.jason13official.brutes.impl.common.registry.ModItems;
 import io.github.jason13official.brutes.impl.common.registry.ModMenus;
 import io.github.jason13official.brutes.impl.common.registry.ModParticles;
+import io.github.jason13official.brutes.impl.common.registry.ModPotions;
 import io.github.jason13official.brutes.impl.common.registry.ModTabs;
 import io.github.jason13official.brutes.impl.common.registry.ModTiles;
 import java.util.function.BiConsumer;
@@ -36,9 +38,11 @@ public class BrutesForge {
   public BrutesForge(final FMLJavaModLoadingContext context) {
     EVENT_BUS = context.getModEventBus();
 
+    bind(Registries.MOB_EFFECT, ModEffects::register);
     bind(Registries.BLOCK, ModBlocks::register);
     bind(Registries.ENTITY_TYPE, ModEntities::register);
     bind(Registries.ITEM, ModItems::register);
+    bind(Registries.POTION, ModPotions::register);
     bind(Registries.PARTICLE_TYPE, ModParticles::register);
     bind(Registries.BLOCK_ENTITY_TYPE, ModTiles::register);
     bind(Registries.MENU, ModMenus::register);
