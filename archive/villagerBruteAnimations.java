@@ -17,22 +17,22 @@ public class villagerBruteAnimation {
 			new Keyframe(1.1029F, KeyframeAnimations.posVec(0.0F, 1.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(2.2059F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
 		))
-		.addAnimation("Left Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
+		.addAnimation("LeftArm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
 			new Keyframe(0.0F, KeyframeAnimations.degreeVec(-10.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(1.2255F, KeyframeAnimations.degreeVec(7.6145F, -9.9136F, -1.3184F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(2.3284F, KeyframeAnimations.degreeVec(-10.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
 		))
-		.addAnimation("Left Arm", new AnimationChannel(AnimationChannel.Targets.POSITION, 
+		.addAnimation("LeftArm", new AnimationChannel(AnimationChannel.Targets.POSITION, 
 			new Keyframe(0.0F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(1.2255F, KeyframeAnimations.posVec(0.0F, -2.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(2.3284F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
 		))
-		.addAnimation("Right Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
+		.addAnimation("RightArm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
 			new Keyframe(0.0F, KeyframeAnimations.degreeVec(-12.5F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(1.2255F, KeyframeAnimations.degreeVec(0.0F, 10.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(2.3284F, KeyframeAnimations.degreeVec(-12.5F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
 		))
-		.addAnimation("Right Arm", new AnimationChannel(AnimationChannel.Targets.POSITION, 
+		.addAnimation("RightArm", new AnimationChannel(AnimationChannel.Targets.POSITION, 
 			new Keyframe(0.0F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(1.2255F, KeyframeAnimations.posVec(0.0F, -2.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(2.3284F, KeyframeAnimations.posVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
@@ -71,14 +71,14 @@ public class villagerBruteAnimation {
 			new Keyframe(1.1409F, KeyframeAnimations.posVec(0.0F, -1.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(1.5377F, KeyframeAnimations.posVec(0.0F, 1.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
 		))
-		.addAnimation("Left Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
+		.addAnimation("LeftArm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
 			new Keyframe(0.0F, KeyframeAnimations.degreeVec(10.683F, -6.4837F, -6.2639F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.4464F, KeyframeAnimations.degreeVec(21.0094F, -3.8678F, -10.7175F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.7936F, KeyframeAnimations.degreeVec(10.683F, -6.4837F, -6.2639F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(1.0913F, KeyframeAnimations.degreeVec(21.1488F, -2.9685F, -13.0543F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(1.5377F, KeyframeAnimations.degreeVec(10.683F, -6.4837F, -6.2639F), AnimationChannel.Interpolations.CATMULLROM)
 		))
-		.addAnimation("Right Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
+		.addAnimation("RightArm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
 			new Keyframe(0.0F, KeyframeAnimations.degreeVec(0.0F, 10.0F, 7.5F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.4464F, KeyframeAnimations.degreeVec(11.2101F, 8.6177F, 14.9702F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.7936F, KeyframeAnimations.degreeVec(0.0F, 10.0F, 7.5F), AnimationChannel.Interpolations.CATMULLROM),
@@ -193,14 +193,14 @@ public class villagerBruteAnimation {
 			new Keyframe(0.6519F, KeyframeAnimations.posVec(0.0F, -2.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.8787F, KeyframeAnimations.posVec(0.0F, 2.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
 		))
-		.addAnimation("Left Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
+		.addAnimation("LeftArm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
 			new Keyframe(0.0F, KeyframeAnimations.degreeVec(30.213F, -11.7815F, -15.0044F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.2551F, KeyframeAnimations.degreeVec(43.6018F, -6.6474F, -20.5452F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.4535F, KeyframeAnimations.degreeVec(30.213F, -11.7815F, -15.0044F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.6519F, KeyframeAnimations.degreeVec(43.6018F, -6.6474F, -20.5452F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.8787F, KeyframeAnimations.degreeVec(30.213F, -11.7815F, -15.0044F), AnimationChannel.Interpolations.CATMULLROM)
 		))
-		.addAnimation("Right Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
+		.addAnimation("RightArm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
 			new Keyframe(0.0F, KeyframeAnimations.degreeVec(30.213F, 11.7815F, 15.0044F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.2551F, KeyframeAnimations.degreeVec(43.6018F, 6.6474F, 20.5452F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.4535F, KeyframeAnimations.degreeVec(30.213F, 11.7815F, 15.0044F), AnimationChannel.Interpolations.CATMULLROM),
@@ -311,7 +311,7 @@ public class villagerBruteAnimation {
 			new Keyframe(0.6705F, KeyframeAnimations.degreeVec(-15.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.8142F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
 		))
-		.addAnimation("Left Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
+		.addAnimation("LeftArm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
 			new Keyframe(0.0F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.1437F, KeyframeAnimations.degreeVec(42.5F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.2874F, KeyframeAnimations.degreeVec(47.5F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
@@ -321,7 +321,7 @@ public class villagerBruteAnimation {
 			new Keyframe(0.6705F, KeyframeAnimations.degreeVec(-147.5F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.7663F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
 		))
-		.addAnimation("Right Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
+		.addAnimation("RightArm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
 			new Keyframe(0.0F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.1437F, KeyframeAnimations.degreeVec(42.5F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.2874F, KeyframeAnimations.degreeVec(47.5F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
@@ -354,7 +354,7 @@ public class villagerBruteAnimation {
 			new Keyframe(0.4368F, KeyframeAnimations.degreeVec(-12.5F, -12.5F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.504F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
 		))
-		.addAnimation("Left Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
+		.addAnimation("LeftArm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
 			new Keyframe(0.0F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.0672F, KeyframeAnimations.degreeVec(-15.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.1344F, KeyframeAnimations.degreeVec(-15.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
@@ -364,7 +364,7 @@ public class villagerBruteAnimation {
 			new Keyframe(0.4368F, KeyframeAnimations.degreeVec(-20.0F, -25.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.504F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM)
 		))
-		.addAnimation("Right Arm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
+		.addAnimation("RightArm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
 			new Keyframe(0.0F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.0672F, KeyframeAnimations.degreeVec(-12.5F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
 			new Keyframe(0.1344F, KeyframeAnimations.degreeVec(-12.5F, 0.0F, 0.0F), AnimationChannel.Interpolations.CATMULLROM),
